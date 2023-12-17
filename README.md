@@ -42,7 +42,8 @@ private let stackView: UIStackView = {
         }
         
         let loading = "LOADING"
-        
+
+        // inserted each character of "LOADING" into UIStackView as an separate UILabel, with the aim to work with each one independently
         for char in loading {
             let label = UILabel()
             label.textColor = .black
