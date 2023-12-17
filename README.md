@@ -5,7 +5,7 @@ https://github.com/narzullaevnurbek/loading_text_animation/assets/119044390/8bc7
 
 # Essentials
 ```swift
-private let stackView: UIStackView = {
+    private let stackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .horizontal
         stackView.distribution = .equalSpacing
